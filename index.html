@@ -6,11 +6,36 @@
 
     <!-- Importados -->
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 
     <title> Game </title>
 </head>
 <body>
     <h1> ROCK PAPER SCISSORS </h1>
+
+    <div class="main">
+        <div class="scoreboard">
+            <p> Você: <span id="hPoints"> 0 </span> | Computador: <span id="rPoints"> 0 </span></p>
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <div class="container">
+        <button id="pedra"> PEDRA </button>
+        <button id="papel"> PAPEL </button>
+        <button id="tesoura"> TESOURA </button>
+    </div>
+
+    <div class="fight">
+        <div class="player-hand">
+            <span id="playerChoice"> ✊ </span>
+        </div>
+        <div class="computer-hand">
+            <span id="computerChoice"> ✊ </span>
+        </div>
+    </div>
+
+
 </body>
 </html>
